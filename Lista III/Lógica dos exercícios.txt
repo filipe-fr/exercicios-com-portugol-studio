@@ -1,0 +1,75 @@
+Questão 1: Escreva um algoritmo para encontrar o maior e o menor número em um vetor com valores digitados
+pelo usuário do sistema.
+
+	1. Perguntar ao usuários quantos números ele deseja digitar (Guardar na variável quantidade);
+	2. Guardar os números digitados pelo usuário no vetor (Variável cont);
+	3. É feita uma ordenação no vetor com o método Selection Sort (Variáveis contA, contB e aux);
+	4. O sistema imprime na tela o menor número (primeira posição do vetor) e o maior número (última posição do vetor).
+	
+Questão 2: Faça um algoritmo que lê um vetor de 8 posições. Ele deve contar e escrever quantos valores pares esse
+vetor possui.
+
+	1. Guardar os números digitados pelo usuário no vetor (Variável cont):
+		1.1: A cada repetição, o programa irá verificar se o número é par ou ímpar. Se o número for par, o programa
+		contará mais um número par, se não, nada é feito. (Variáveis parOuImpar, numerosPar);
+	2. O sistema imprime na tela a quantidade de números pares.
+	
+Questão 3: Escreva um algoritmo que leia um vetor de 20 posições e em seguida um valor X qualquer. Seu
+programa deverá fazer uma busca do valor de X no vetor lido e informar a primeira posição em que foi
+encontrado ou se não foi encontrado. Caso não encontre o valor, deve aparecer a mensagem de valor não
+encontrado.
+	
+	Incremento: Transformar números em nomes.
+
+	1. Guardar os nomes digitados pelo usuário no vetor (Variável cont);
+	2. Guardar o nome buscado (Variável busca);
+	3. Fazer a busca no vetor com o método de Pesquisa Linear no vetor;
+	4. O sistema imprime na tela o resultado:
+		4.1. Se o nome for encontrado, o sistema irá dizer que o nome buscado foi encontrado e informar
+		em qual posição esse nome foi encontrado;
+		4.1. Se o nome não for encontrado, o sistema irá dizer que o nome buscado não foi encontrado.
+		
+Questão 4: Escreva um algoritmo para ler um vetor de 12 posições e imprima as seguintes operações:
+A soma do valor da primeira e da última posição;
+A multiplicação da segunda e penúltima posição;
+A divisão da primeira e da última posição.
+
+	1. Guardar os números digitados pelo usuário no vetor (Variável cont);
+	2. Fazer as operações:
+		2.1 Operação de soma: Variável soma = vetor[0] + vetor[11];
+		2.2 Operação de multiplicação: Variável multiplicacao = vetor[1] * vetor[10];
+		2.3 Operação de divisão: Variável divisao = vetor[0] / vetor[11];
+	3. O sistema imprime na tela os resultados.
+	
+Questão 5: Escreva um algoritmo que leia um vetor de 8 posições e troque os 4 primeiros valores pelos 4 últimos e
+vice-e-versa. Escreva ao final o vetor obtido.
+
+	1. Guardar os números digitados pelo usuário no vetor (Variável cont):
+	2. Utilizando um laço para, fazer a troca dos valores
+	3. O sistema imprime na tela o resultado do vetor.
+	
+Questão 6.1: Escreva um algoritmo que leia um vetor, verifique e escreva se um é palíndromo.
+	
+	1. Guardar a palavra digitada pelo usuário no vetor (Variável cont);
+	2. Em um vetor auxiliar, inverter a ordem da palavra
+	3. Comparar os dois vetores, se são iguais ou diferentes
+	4. O sistema imprime na tela se a palavra é ou não um palíndromo
+
+Questão 7: Crie um algoritmo que peça ao usuário que informe 10 números inteiros e armazene-os em um vetor.
+A seguir, apresente a multiplicação de todos os elementos pares e a soma de todos os elementos
+ímpares.
+	
+	1. Guardar os números digitados pelo usuário no vetor (Variável cont):
+		1.1: A cada repetição, o programa irá verificar se o número é par ou ímpar. (Variável parOuImpar)
+		1.2: Se o número for par, o programa multiplicará o número pelo o que está guardado na variável numerosPar,
+		1.3: Se o número for impar, o programa somará o número com o que está na variável numerosImpar;
+	2. O sistema imprime na tela os resultados.
+	
+Questão 8: Escreva um algoritmo que recebe valores digitados por um usuário e os ordene. A ordenação pode ser
+do maior para o menor ou o contrário, sendo que o usuário que deverá escolher como ele quer ordenar
+assim que digitar todos os valores.
+
+	1. Guardar os números digitados pelo usuário no vetor (Variável cont);
+	2. Peguntar se o usuário deseja ordenar os números de forma crescente ou decrescente (Variável decisao);
+	3. É feita uma ordenação no vetor com o método Selection Sort de acordo a escolha do usuário (Variáveis contA, contB e aux);
+	4. O sistema imprime na tela o resultados.

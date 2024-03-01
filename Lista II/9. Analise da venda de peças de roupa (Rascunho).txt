@@ -1,0 +1,32 @@
+O usuário entra com três dados:
+
+	1. O código da roupa;
+	2. A cor da roupa;
+	3. A quantidade vendida desta roupa.
+	
+Após isso, o sistema processa os dados e precisa exibir:
+
+	1. A cor mais vendida;
+	2. A quantidade de roupas vendidas em cada cor;
+	3. A porcentagem de roupas vendidas	em cada cor.
+	
+	Como ocorrerá o processamento dos dados:
+	
+	1. O sistema guardará o código (codigo), a cor (cor) e a quantidade (quantidadeVendida) vendida em três vetores distintos;
+	2. Após isso, será verificado se a quantidade vendida da cor digitada é maior ou menor do que a quantidade vendida da cor anterior.
+		2.1: Se a quantidade for maior, o sistema guardará a cor na variável corMaisVendida e soma a quantidade vendida daquela cor com
+		o restante das outras quantidades na variável quantidadeTotalVendida.
+		2.2: Se a quantidade for menor, o sistema apenas somará a quantidade vendida daquela cor com o restante das outras quantidades
+		na variável quantidadeTotalVendida.
+	3. Para calcular a porcentagem vendida em cada cor, o sistema irá realizar o cálculo utilizando uma regra de três e guardará o resultado no vetor porcentagem:
+			quantidadeTotalVendida --- 100%
+			quantidadeVendida --- x
+			
+			quantidadeVendida * 100 = quantidadeTotalVendida * x
+			(quantidadeVendida * 100) / quantidadeTotalVendida = x
+		
+Por fim, será exibido na tela os dados da seguinte forma:
+
+	1. Para a cor mais vendida, será exibido o que está na variável corMaisVendida
+	2. Para a quantidade e a porcentagem de roupas vendidas em cada cor, será exibido através de laços de repetição o que está nos
+	vetores cor, quantidadeVendida e , em ordem.
