@@ -4,6 +4,8 @@ programa
 	
 	funcao inicio()
 	{
+		// Código feito por Filipe Freire
+		
 		escreva("Este é um programa para a identificação do antecessor e sucessor de um número!\n")
 		
 		escreva("\nDigite um número inteiro: ")
@@ -20,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 331; 
+ * @POSICAO-CURSOR = 93; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
